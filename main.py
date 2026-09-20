@@ -24,7 +24,7 @@ def main():
         elif choice == "report":
             print(f"Bread: {sandwich_maker_instance.machine_resources['bread']} slice(s)")
             print(f"Ham: {sandwich_maker_instance.machine_resources['ham']} slice(s)")
-            print(f"Cheese: {sandwich_maker_instance.machine_resources['cheese']} pound(s)")
+            print(f"Cheese: {sandwich_maker_instance.machine_resources['cheese']} ounce(s)")
 
         elif choice in recipes:
             sandwich = recipes[choice]
